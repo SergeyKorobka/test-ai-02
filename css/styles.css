@@ -141,6 +141,14 @@ button {
 
 /*#region Footer*/
 
+.portfolio-subtitle {
+  text-align: center;
+}
+
+.portfolio-text {
+  text-align: center;
+}
+
 .page-footer {
   background-color: #2e2f42;
 }
