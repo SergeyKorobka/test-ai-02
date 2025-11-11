@@ -1,23 +1,26 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  /* test2 */
+  /* font-family: 'Roboto', sans-serif; */
   font-size: 16px;
   color: #434455;
   background-color: #fff;
+  line-height: 1.5;
 }
 
 /*#region Reset*/
 
-ul,
+/* test2 */
+/* ul,
 ol {
   list-style-type: none;
 }
 
+ /* test2 */
 a {
   text-decoration: none;
   color: currentColor;
 }
-
-button {
+*/ button {
   cursor: pointer;
 }
 
@@ -26,6 +29,10 @@ button {
 /*#region Common*/
 
 .logo {
+  /* test2 */
+  display: flex;
+  margin-right: 76px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -70,6 +77,8 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  /* test2 */
+  padding: 0 24px;
 }
 
 .contacts {
@@ -94,10 +103,12 @@ button {
 
 .section-hero {
   background-color: #2e2f42;
+  /* test2 */
+  height: 500px;
 }
 
 .hero-title {
-  font-size: 56px !important;
+  font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
@@ -128,6 +139,8 @@ button {
 }
 
 .team-item {
+  /* test2 */
+  width: 264px;
   background-color: #fff;
 }
 
@@ -142,6 +155,8 @@ button {
 
 .page-footer {
   background-color: #2e2f42;
+  /* test2 */
+  width: 1440px;
 }
 .footer-logo .logo-part {
   color: #f4f4fd;
