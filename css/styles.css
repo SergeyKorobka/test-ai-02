@@ -46,16 +46,17 @@ button {
 }
 
 .card-subtitle {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 32px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  text-align: center;
 }
 
 .card-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 
 /*#endregion Common*/
@@ -101,6 +102,7 @@ button {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #fff;
 }
 
