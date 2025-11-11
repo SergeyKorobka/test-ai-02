@@ -142,15 +142,10 @@ button {
 /*#region Footer*/
 
 .page-footer {
-  background-color: #2e2f42;
+  font-family: 'Raleway', sans-serif;
 }
-.footer-logo .logo-part {
-  color: #f4f4fd;
-}
+
 .footer-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
 }
 
 /*#endregion Footer*/
