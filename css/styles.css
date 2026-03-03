@@ -45,7 +45,7 @@ button {
 .card-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -63,7 +63,7 @@ button {
   color: #4d5ae5;
 }
 
-.nav-item {
+.nav-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -74,14 +74,15 @@ button {
   font-style: normal;
 }
 
-.contacts-item {
+.contacts-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
 .nav-link:focus,
-.contacts-link:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
@@ -95,7 +96,7 @@ button {
 
 .hero-title {
   font-size: 56px;
-  line-height: 107%;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -120,11 +121,11 @@ button {
 
 /*#region Team*/
 
-.section-title {
+.section-team {
   background-color: #f4f4fd;
 }
 
-.team-list {
+.team-item {
   background-color: #fff;
 }
 
